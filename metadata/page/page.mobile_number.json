@@ -1,0 +1,21 @@
+{
+  "_id": "page.mobile_number",
+  "_type": "page.form",
+  "body": "We'll send a code to your mobile number every time you sign in. This will allow you to retrieve your application.",
+  "components": [
+    {
+      "_id": "page.mobile_number--number.auto_name__2",
+      "_type": "text",
+      "label": "**UK mobile number**",
+      "name": "mobile"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Your mobile phone number",
+  "steps": [
+    "page.confirm_mobile_number",
+    "page.check_your_mobile",
+    "page.resend_security_code"
+  ],
+  "url": "mobile_number"
+}

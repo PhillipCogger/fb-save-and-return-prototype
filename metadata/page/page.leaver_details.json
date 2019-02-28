@@ -1,0 +1,79 @@
+{
+  "_id": "page.leaver_details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.leaver_details--date.auto_name__2",
+      "_type": "date",
+      "label": "Leave date",
+      "name": "auto_name__2"
+    },
+    {
+      "_id": "page.leaver_details--text.auto_name__3",
+      "_type": "text",
+      "label": "Name",
+      "name": "name"
+    },
+    {
+      "_id": "page.leaver_details--email.auto_name__4",
+      "_type": "email",
+      "label": "Email address",
+      "name": "application_email"
+    },
+    {
+      "_id": "page.leaver_details--text.auto_name__5",
+      "_type": "text",
+      "label": "Job title",
+      "name": "auto_name__5"
+    },
+    {
+      "_id": "page.leaver_details--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.leaver_details--radios.auto_name__6--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Permanent staff",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.leaver_details--radios.auto_name__6--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.leaver_details--radios.auto_name__6--radio.auto_value__3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.leaver_details--radios.auto_name__6--radio.auto_value__3--textarea.auto_name__8",
+            "_type": "textarea",
+            "label": "Provide employment details",
+            "name": "auto_name__8",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Other",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Employment details",
+      "name": "auto_name__6"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.leaver_details--content",
+      "_type": "content",
+      "html": "[Save and come back later](/email_address)",
+      "show": {
+        "identifier": "mobile_code",
+        "negated": true,
+        "operator": "defined"
+      }
+    }
+  ],
+  "heading": "Leaver details",
+  "url": "leaver_details"
+}

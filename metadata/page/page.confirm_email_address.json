@@ -1,0 +1,38 @@
+{
+  "_id": "page.confirm_email_address",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.confirm_email_address--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.confirm_email_address--radios.auto_name__3--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes, this is my email address",
+          "value": "yes"
+        },
+        {
+          "_id": "page.confirm_email_address--radios.auto_name__3--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No, change my email address",
+          "value": "no"
+        }
+      ],
+      "legend": "An email will be sent to {email}.",
+      "name": "email_correct"
+    }
+  ],
+  "heading": "Make sure this is right",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "email_correct",
+        "operator": "is",
+        "value": "no"
+      },
+      "page": "page.email_address"
+    }
+  ],
+  "url": "/confirm_email_address"
+}

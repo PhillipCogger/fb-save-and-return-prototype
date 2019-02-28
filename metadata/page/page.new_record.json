@@ -1,0 +1,10 @@
+{
+  "_id": "page.new_record",
+  "_type": "page.form",
+  "body": "Now return to the form",
+  "heading": "Successfully setup save and return",
+  "nextPage": [
+    "page.unit"
+  ],
+  "url": "new_record"
+}

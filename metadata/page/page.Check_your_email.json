@@ -1,0 +1,8 @@
+{
+  "_id": "page.Check_your_email",
+  "_type": "page.exit",
+  "body": "This can take a few minutes to arrive.\r\n\r\nIf you don't get an email: \r\n * check your spam or junk folders\r\n * check you have entered the correct email\r\n * [resend the email](email_resent)",
+  "heading": "Check your email",
+  "lede": "We've sent you an email. Follow the instructions to finish setting up your form.",
+  "url": "/check_your_email"
+}

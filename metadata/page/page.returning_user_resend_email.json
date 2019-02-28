@@ -1,0 +1,16 @@
+{
+  "_id": "page.returning_user_resend_email",
+  "_type": "page.form",
+  "actionType": "send.sms",
+  "body": "If you did not receive the text message, you can send a new code.",
+  "heading": "Send new security code",
+  "nextPage": [
+    "page.returning_user_enter_code"
+  ],
+  "show": {
+    "identifier": "signin_mobile_code",
+    "negated": true,
+    "operator": "defined"
+  },
+  "url": "/returning_user_resend_code"
+}

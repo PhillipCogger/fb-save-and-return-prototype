@@ -1,0 +1,48 @@
+{
+  "_id": "page.email_confirmation_followup",
+  "_type": "page.form",
+  "body": "Explanation of why to use 2FA and what the implications of not using it are.",
+  "components": [
+    {
+      "_id": "page.email_confirmation_followup--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "legend": "Do you want to use 2FA?",
+      "name": "two_factor_authentication"
+    }
+  ],
+  "heading": "Require 2FA",
+  "lede": "We strongly recommend the use of 2FA",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "two_factor_authentication",
+        "operator": "is",
+        "value": "yes"
+      },
+      "page": "page.mobile_number"
+    },
+    {
+      "condition": {
+        "identifier": "two_factor_authentication",
+        "operator": "is",
+        "value": "no"
+      },
+      "page": "page.new_record"
+    }
+  ],
+  "url": "email_confirmation_followup"
+}

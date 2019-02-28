@@ -1,0 +1,33 @@
+{
+  "_id": "page.manager",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.manager--text.auto_name__9",
+      "_type": "text",
+      "label": "Name",
+      "name": "auto_name__9"
+    },
+    {
+      "_id": "page.manager--email.auto_name__10",
+      "_type": "email",
+      "hint": "e.g. my.manager@digital.justice.gov.uk",
+      "label": "Email address",
+      "name": "auto_name__10"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.manager--content",
+      "_type": "content",
+      "html": "[Save and come back later](/email_address)",
+      "show": {
+        "identifier": "mobile_code",
+        "negated": true,
+        "operator": "defined"
+      }
+    }
+  ],
+  "heading": "Manager",
+  "url": "/returning_manager"
+}

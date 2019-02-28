@@ -1,0 +1,52 @@
+{
+  "_id": "page.location",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.location--radios.auto_name__11",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.location--radios.auto_name__11--radio.auto_value__20",
+          "_type": "radio",
+          "label": "London",
+          "value": "auto_value__20"
+        },
+        {
+          "_id": "page.location--radios.auto_name__11--radio.auto_value__21",
+          "_type": "radio",
+          "label": "Sheffield",
+          "value": "auto_value__21"
+        },
+        {
+          "_id": "page.location--radios.auto_name__11--radio.auto_value__22",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.location--radios.auto_name__11--radio.auto_value__22--textarea.auto_name__12",
+            "_type": "textarea",
+            "label": "Provide location details",
+            "name": "auto_name__12"
+          },
+          "label": "Other",
+          "value": "auto_value__22"
+        }
+      ],
+      "legend": "Location",
+      "name": "auto_name__11"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.location--content",
+      "_type": "content",
+      "html": "[Save and come back later](/email_address)",
+      "show": {
+        "identifier": "mobile_code",
+        "negated": true,
+        "operator": "defined"
+      }
+    }
+  ],
+  "sectionHeading": "Department details",
+  "url": "/returning_user_location"
+}

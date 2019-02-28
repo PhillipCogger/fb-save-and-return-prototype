@@ -1,0 +1,38 @@
+{
+  "_id": "page.confirm_mobile_number",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.confirm_mobile_number--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.confirm_mobile_number--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Yes, this is my number",
+          "value": "yes"
+        },
+        {
+          "_id": "page.confirm_mobile_number--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "No, I need to change this number",
+          "value": "no"
+        }
+      ],
+      "legend": "A text message will be sent to {mobile}.",
+      "name": "mobile_correct"
+    }
+  ],
+  "heading": "Make sure this is right",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "mobile_correct",
+        "operator": "is",
+        "value": "no"
+      },
+      "page": "page.mobile_number"
+    }
+  ],
+  "url": "/confirm_mobile_number"
+}

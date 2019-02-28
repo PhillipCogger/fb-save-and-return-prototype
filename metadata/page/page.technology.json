@@ -1,0 +1,72 @@
+{
+  "_id": "page.technology",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.technology--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.technology--checkboxes--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "hint": "Digital",
+          "label": "MacBook",
+          "name": "auto_name__13"
+        },
+        {
+          "_id": "page.technology--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "hint": "Closed Circuit Network",
+          "label": "DOM1",
+          "name": "auto_name__14"
+        },
+        {
+          "_id": "page.technology--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Quantum / Omni",
+          "name": "auto_name__15"
+        },
+        {
+          "_id": "page.technology--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "Mobile",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.technology--checkboxes--checkbox.auto_name__17",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.technology--checkboxes--checkbox.auto_name__17--textarea.auto_name__18",
+            "_type": "textarea",
+            "label": "Provide technology details",
+            "name": "auto_name__18"
+          },
+          "label": "Other",
+          "name": "auto_name__17"
+        }
+      ],
+      "legend": "Technology used"
+    },
+    {
+      "_id": "page.technology--date.auto_name__19",
+      "_type": "date",
+      "hint": "To return laptop and other equipment",
+      "label": "Last day in office",
+      "name": "auto_name__19"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.unit--content",
+      "_type": "content",
+      "html": "[Save and come back later](/email_address)",
+      "show": {
+        "identifier": "mobile_code",
+        "negated": true,
+        "operator": "defined"
+      }
+    }
+  ],
+  "heading": "Technology details",
+  "url": "/returning_user_technology"
+}

@@ -1,0 +1,97 @@
+{% extends "template.njk" %}
+
+{% block head %}
+<link rel="stylesheet" href="/assets/govuk-frontend-0.0.31-alpha.min.css">
+<link rel="stylesheet" href="/assets/govuk-frontend-1.3.0.min.css">
+{# <link rel="stylesheet" href="/assets/govuk-frontend-ie8-1.3.0.min.css"> #}
+<style>
+#signedin {
+  text-decoration: none;
+  cursor: default;
+}
+</style>
+{% block styles %}{% endblock %}
+{% endblock %}
+
+{% block header %}
+  {% block govHeader %}
+    {% set headerParams = {
+      homepageUrl: page.service.homepageUrl,
+      serviceName: page.service.name,
+      serviceUrl: page.service.serviceUrl
+    } %}
+    {% if userdata.mobile_code %}{% set isSignedIn = true %}{% endif %}
+    {% if userdata.two_factor_authentication == 'no' %}{% if userdata.email %}{% set isSignedIn = true %}{% endif %}{% endif %}
+    {% if page._id == 'page.sign-out' %}{% set isSignedIn = false %}{% endif %}
+    {% set userEmail = 'retrieved.email@no2fa.com' %}
+    {% if userdata.email %}{% set userEmail = userdata.email %}{% endif %}
+    {% if isSignedIn %}
+    {% set signedin = 'Signed in as ' + userEmail %}
+    {% set headerNavigation = [
+        {
+          text: signedin,
+          href: '/',
+          active: true,
+          attributes: {
+            id: 'signedin'
+          }
+        },
+        {
+          text: 'Sign out',
+          href: '/sign-out'
+        }
+      ] %}
+    {% set headerParams = setObject(headerParams, {navigation: headerNavigation}) %}
+    {% endif %}
+    {{ callMacro('govukHeader', headerParams) }}
+  {% endblock %}
+  {% block govPhase %}
+  {% if page.service.phase !== 'none' %}
+  <div class="govuk-width-container">
+  {{ callMacro('govukPhaseBanner', {
+    html: page.service.phaseText,
+    tag: {
+      html: page.service.phase
+    }
+    })
+  }}
+  </div>
+  {% endif %}
+  {% endblock %}
+{% endblock %}
+
+{% block main %}
+  <div class="govuk-width-container govuk-body-m">
+    {% block beforeContent %}{% endblock %}
+    <main class="govuk-main-wrapper {{ mainClasses }}" id="main-content" role="main">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+{% endblock %}
+
+
+{% block bodyEnd %}
+{% block tracking %}
+{% if not page.EDITMODE %}
+{% if GA_TRACKING_ID %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ GA_TRACKING_ID }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date())
+  gtag('config', '{{ GA_TRACKING_ID }}', { 'anonymize_ip': true });
+</script>
+{% endif %}
+{% endif %}
+{% endblock %}
+{# <script src="/assets/govuk-frontend-1.3.0.min.js"></script> #}
+<script src="/assets/govuk-frontend-design-system.min.js"></script>
+{% block scripts %}{% endblock %}
+<style>
+@media (min-width: 48.0625em) {
+  .govuk-header__content {
+    width: 66%;
+  }
+}
+</style>
+{% endblock %}

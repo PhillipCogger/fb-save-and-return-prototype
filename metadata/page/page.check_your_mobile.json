@@ -1,0 +1,39 @@
+{
+  "_id": "page.check_your_mobile",
+  "_type": "page.form",
+  "body": "We have sent a 5 digit security code by text to {mobile}.\r\n\r\nThis can take a minute or so to arrive.\r\n\r\nThis runs out in 24 hours.",
+  "components": [
+    {
+      "_id": "page.check_your_mobile--text.auto_name__4",
+      "_type": "text",
+      "errors": {
+        "pattern": {
+          "inline": "The code should be 5 digits",
+          "summary": "The code should be 5 digits"
+        }
+      },
+      "label": "**Security code**",
+      "name": "mobile_code",
+      "validation": {
+        "pattern": "^\\d{5}$"
+      },
+      "widthClassInput": "5"
+    },
+    {
+      "_id": "page.check_your_mobile--content",
+      "_type": "content",
+      "html": "[Didn't get a code?](/resend_security_code)"
+    }
+  ],
+  "heading": "Check your mobile",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "mobile_code",
+        "operator": "defined"
+      },
+      "page": "page.new_record"
+    }
+  ],
+  "url": "/check_your_mobile"
+}

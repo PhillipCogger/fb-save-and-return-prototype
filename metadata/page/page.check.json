@@ -1,0 +1,17 @@
+{
+  "_id": "page.check",
+  "_type": "page.summary",
+  "extraComponents": [
+    {
+      "_id": "page.check--content",
+      "_type": "content",
+      "html": "[Save and come back later](/email_address)",
+      "show": {
+        "identifier": "mobile_code",
+        "negated": true,
+        "operator": "defined"
+      }
+    }
+  ],
+  "url": "check"
+}

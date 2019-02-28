@@ -1,0 +1,34 @@
+{
+  "_id": "page.returning_user_enter_code",
+  "_type": "page.form",
+  "body": "We have sent a 5 digit security code by text to {mobile}.\r\n\r\nThis can take a minute or so to arrive.\r\n\r\nThis runs out in 24 hours.",
+  "components": [
+    {
+      "_id": "page.returning_user_enter_code--text.auto_name__5",
+      "_type": "text",
+      "label": "**Security code**",
+      "name": "mobile_code",
+      "widthClassInput": "5"
+    },
+    {
+      "_id": "page.returning_user_enter_code--content",
+      "_type": "content",
+      "html": "[Didn't get a code](/returning_user_resend_code)"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Check your mobile",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "mobile_code",
+        "operator": "defined"
+      },
+      "page": "page.signedin"
+    }
+  ],
+  "steps": [
+    "page.returning_user_resend_email"
+  ],
+  "url": "/sign-in-returning_user_enter_code"
+}
