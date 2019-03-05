@@ -1,8 +1,8 @@
 {
   "_id": "page.signedin",
   "_type": "page.form",
-  "heading": "Successfully setup save and return",
-  "lede": "Now return to the form",
+  "heading": "You've successfully signed in",
+  "lede": "You can now continue working on your form.",
   "nextPage": [
     "page.unit"
   ],

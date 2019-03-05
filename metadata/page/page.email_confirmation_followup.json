@@ -1,7 +1,7 @@
 {
   "_id": "page.email_confirmation_followup",
   "_type": "page.form",
-  "body": "Explanation of why to use 2FA and what the implications of not using it are.",
+  "body": "Once enabled, returning to your saved form will require you to enter a unique passcode. This passcode is generated once you have accessed your email and will be sent via text message to your phone number.\r\n\r\nYou can also set this up at a later date.",
   "components": [
     {
       "_id": "page.email_confirmation_followup--radios.auto_name__3",
@@ -10,22 +10,22 @@
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
-          "label": "Yes",
+          "label": "Yes, I want to use Two-Step Authentication",
           "value": "yes"
         },
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12--2",
           "_type": "radio",
-          "label": "No",
+          "label": "No, I do not want to use Two-Step Authentication at this time",
           "value": "no"
         }
       ],
-      "legend": "Do you want to use 2FA?",
+      "legend": "Do you want to use Two-Step Authentication?",
       "name": "two_factor_authentication"
     }
   ],
-  "heading": "Require 2FA",
-  "lede": "We strongly recommend the use of 2FA",
+  "heading": "Stronger security for your GOV.UK form",
+  "lede": "We strongly recommend you set-up Two-Step Authentication to add an extra layer of security to your form.",
   "nextPage": [
     {
       "condition": {
