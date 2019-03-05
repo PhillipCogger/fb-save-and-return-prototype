@@ -10,17 +10,17 @@
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
-          "label": "Yes, I want to use Two-Step Authentication",
+          "label": "Yes, I want to set-up Two-Step Authentication now",
           "value": "yes"
         },
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12--2",
           "_type": "radio",
-          "label": "No, I do not want to use Two-Step Authentication at this time",
+          "label": "No, I do not want to set-up Two-Step Authentication at this time",
           "value": "no"
         }
       ],
-      "legend": "Do you want to use Two-Step Authentication?",
+      "legend": "Do you want to set-up Two-Step Authentication?",
       "name": "two_factor_authentication"
     }
   ],
