@@ -1,7 +1,7 @@
 {
   "_id": "page.email_address",
   "_type": "page.form",
-  "body": "We'll send you an email with instructions to return to your application.",
+  "body": "We'll email you instructions to return to your application.",
   "components": [
     {
       "_id": "page.email_address--email.auto_name__2",
