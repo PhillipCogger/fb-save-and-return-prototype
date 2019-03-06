@@ -1,11 +1,12 @@
 {
   "_id": "page.email_address",
   "_type": "page.form",
+  "body": "We'll send you an email with instructions to return to your application.",
   "components": [
     {
       "_id": "page.email_address--email.auto_name__2",
       "_type": "email",
-      "hint": "We'll send you instructions to return to your application.",
+      "hint": "Make sure only you can access this email address",
       "label": "Email address",
       "name": "email"
     }
