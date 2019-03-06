@@ -19,11 +19,11 @@
           "value": "no"
         }
       ],
-      "legend": "An email will be sent to {email}.",
+      "legend": "We'll send an email to {email}.",
       "name": "email_correct"
     }
   ],
-  "heading": "Make sure this is right",
+  "heading": "Check your email address is right",
   "nextPage": [
     {
       "condition": {
