@@ -23,7 +23,7 @@
       "name": "email_correct"
     }
   ],
-  "heading": "Make sure your email is right",
+  "heading": "Confirm your email address",
   "nextPage": [
     {
       "condition": {
