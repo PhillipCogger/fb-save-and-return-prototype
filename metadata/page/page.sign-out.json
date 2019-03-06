@@ -2,7 +2,7 @@
   "_id": "page.sign-out",
   "_type": "page.form",
   "actionType": "start.again",
-  "body": "You have X months/X days to complete your application from the date you started.\r\n\r\nTo continue with your application return to the start of the service.",
+  "body": "You have X months/X days to complete your application from the date you started.\r\n\r\nTo continue with your application, [sign back in](sign-in)",
   "heading": "You've signed out",
   "lede": "The information you've given us has been saved.",
   "nextPage": [

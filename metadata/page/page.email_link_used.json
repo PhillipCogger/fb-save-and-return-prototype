@@ -1,0 +1,7 @@
+{
+  "_id": "page.email_link_used",
+  "_type": "page.content",
+  "body": "The link we sent you can only be used once.\r\n\r\n[Enter your email again](email_address)",
+  "heading": "Link used already",
+  "url": "email_link_used"
+}

@@ -39,7 +39,7 @@
     {
       "_id": "page.location--content",
       "_type": "content",
-      "html": "[Save and come back later](/email_address)",
+      "html": "[Save and come back later](/email_address)\r\n\r\nYour session will time out after 30 minutes of inactivity. Save your details if you want to come back later.",
       "show": {
         "identifier": "mobile_code",
         "negated": true,
