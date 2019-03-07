@@ -23,6 +23,8 @@
       "name": "auto_name__3"
     }
   ],
+  "enableSteps": true,
   "heading": "You've successfully signed in",
+  "steps": [],
   "url": "sign-in-successfull_without2FA"
 }
