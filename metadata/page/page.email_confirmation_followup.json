@@ -1,7 +1,7 @@
 {
   "_id": "page.email_confirmation_followup",
   "_type": "page.form",
-  "body": "Once enabled, returning to your saved form will require you to enter a unique passcode. This passcode is generated once you have accessed your email and will be sent via text message to your phone number.\r\n\r\nYou can also set this up at a later date.",
+  "body": "You can make your form more secure by setting up 2-Step Verification.\r\n\r\nTo do this you'll need to have a mobile phone.\r\n\r\nOnce you've set this up we'll send a code to your mobile. You'll need to enter this code to return to your saved form.",
   "components": [
     {
       "_id": "page.email_confirmation_followup--radios.auto_name__3",
@@ -10,22 +10,21 @@
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
-          "label": "Yes, I want to set-up Two-Step Authentication now",
+          "label": "Yes",
           "value": "yes"
         },
         {
           "_id": "page.email_confirmation_followup--radios.auto_name__3--radio.auto_value__12--2",
           "_type": "radio",
-          "label": "No, I do not want to set-up Two-Step Authentication at this time",
+          "label": "Not now",
           "value": "no"
         }
       ],
-      "legend": "Do you want to set-up Two-Step Authentication?",
+      "legend": "Do you want to set this up?",
       "name": "two_factor_authentication"
     }
   ],
-  "heading": "Stronger security for your GOV.UK form",
-  "lede": "We strongly recommend you set-up Two-Step Authentication to add an extra layer of security to your form.",
+  "heading": "Make your form more secure",
   "nextPage": [
     {
       "condition": {
