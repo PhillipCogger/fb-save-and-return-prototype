@@ -23,9 +23,14 @@
       "_id": "page.check_your_mobile--content",
       "_type": "content",
       "html": "[Didn't get a code?](/resend_security_code)"
+    },
+    {
+      "_id": "page.check_your_mobile--content--2",
+      "_type": "content",
+      "html": "Don't have your phone?"
     }
   ],
-  "heading": "Check your mobile",
+  "heading": "Enter security code",
   "nextPage": [
     {
       "condition": {
