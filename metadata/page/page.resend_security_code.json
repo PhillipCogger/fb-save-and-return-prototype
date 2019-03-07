@@ -2,7 +2,7 @@
   "_id": "page.resend_security_code",
   "_type": "page.form",
   "actionType": "send.sms",
-  "body": "If you did not receive the text message sent to {mobile}, we can send you a new code.",
+  "body": "If you did not receive the text message sent to {mobile}, we'll send you a new code.",
   "heading": "Send new security code",
   "nextPage": [
     "page.check_your_mobile"

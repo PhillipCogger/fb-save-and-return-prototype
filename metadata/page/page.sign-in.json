@@ -1,7 +1,7 @@
 {
   "_id": "page.sign-in",
   "_type": "page.form",
-  "body": "Enter your email address.\r\n\r\nWe will send you a link to go back to your application.",
+  "body": "Enter your email address.\r\n\r\nWe'll send you a link to return to your application.",
   "components": [
     {
       "_id": "page.sign-in--email.auto_name__5",

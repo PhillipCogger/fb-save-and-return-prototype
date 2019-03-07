@@ -1,7 +1,7 @@
 {
   "_id": "page.successful_sign_in_without2FA",
   "_type": "page.form",
-  "body": "You can now continue working on your form.\r\n\r\nYou have not yet set-up 2FA. Do you want to do this now?",
+  "body": "You can now continue working on your form.\r\n\r\nYou haven't set up 2-Step Verification. Do you want to do this?",
   "components": [
     {
       "_id": "page.successful_sign_in_without2FA--radios.auto_name__3",
@@ -10,17 +10,16 @@
         {
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
-          "label": "Yes, I want to set-up 2FA now",
+          "label": "Yes",
           "value": "auto_value__12"
         },
         {
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__13",
           "_type": "radio",
-          "label": "No, I don't want to set-up 2FA now",
+          "label": "Not now",
           "value": "auto_value__13"
         }
       ],
-      "legend": "Set-up 2FA",
       "name": "auto_name__3"
     }
   ],
