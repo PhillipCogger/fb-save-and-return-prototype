@@ -1,7 +1,7 @@
 {
   "_id": "page.mobile_number",
   "_type": "page.form",
-  "body": "We'll send a code to your mobile number every time you sign in. This will allow you to retrieve your application.",
+  "body": "We'll send a code to your mobile every time you sign in. This will allow you to return to your saved application.",
   "components": [
     {
       "_id": "page.mobile_number--number.auto_name__2",
