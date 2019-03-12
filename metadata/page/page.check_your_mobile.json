@@ -4,6 +4,10 @@
   "body": "We have sent a 5 digit security code by text to {mobile}.\r\n\r\nThis can take a minute or so to arrive.\r\n\r\nThis runs out in 24 hours.",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.check_your_mobile--text.auto_name__4",
       "_type": "text",
       "errors": {
@@ -20,18 +24,33 @@
       "widthClassInput": "5"
     },
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.check_your_mobile--content",
       "_type": "content",
       "html": "[Didn't get a code?](/resend_security_code)"
-    },
-    {
-      "_id": "page.check_your_mobile--content--2",
-      "_type": "content",
-      "html": "Don't have your phone?"
     }
   ],
   "heading": "Enter security code",
   "nextPage": [
+    {
+      "condition": {
+        "all": [
+          {
+            "identifier": "mobile_code",
+            "operator": "defined"
+          },
+          {
+            "identifier": "two_factor_authentication",
+            "negated": true,
+            "operator": "is",
+            "value": "yes"
+          }
+        ]
+      },
+      "page": "page.sign-in-successfull_with2FAadded"
+    },
     {
       "condition": {
         "identifier": "mobile_code",

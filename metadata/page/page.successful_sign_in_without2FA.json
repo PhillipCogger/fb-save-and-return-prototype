@@ -1,7 +1,7 @@
 {
   "_id": "page.successful_sign_in_without2FA",
   "_type": "page.form",
-  "body": "You can now continue working on your form.\r\n\r\nYou haven't set up 2-Step Verification. Do you want to do this?",
+  "body": "You can now continue working on your form.",
   "components": [
     {
       "_id": "page.successful_sign_in_without2FA--radios.auto_name__3",
@@ -11,20 +11,32 @@
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__12",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__12"
+          "value": "yes"
         },
         {
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__13",
           "_type": "radio",
           "label": "Not now",
-          "value": "auto_value__13"
+          "value": "no"
         }
       ],
-      "name": "auto_name__3"
+      "legend": "You haven’t set up 2-Step Verification. Do you want to do this?",
+      "name": "setup_2fa"
     }
   ],
   "enableSteps": true,
   "heading": "You've successfully signed in",
+  "nextPage": [
+    {
+      "condition": {
+        "identifier": "setup_2fa",
+        "operator": "is",
+        "value": "yes"
+      },
+      "page": "page.mobile_number"
+    },
+    "page.unit"
+  ],
   "steps": [],
   "url": "sign-in-successfull_without2FA"
 }

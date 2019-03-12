@@ -13,7 +13,7 @@
     {
       "_id": "page.returning_user_enter_code--content",
       "_type": "content",
-      "html": "[Didn't get a code](/returning_user_resend_code)"
+      "html": "[Didn't get a code?](/returning_user_resend_code)"
     }
   ],
   "enableSteps": true,
