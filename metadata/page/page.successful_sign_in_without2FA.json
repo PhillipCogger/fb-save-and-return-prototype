@@ -1,11 +1,12 @@
 {
   "_id": "page.successful_sign_in_without2FA",
   "_type": "page.form",
-  "body": "You can now continue working on your form.",
+  "body": "You can continue to your work or you can make your sign-in more secure.",
   "components": [
     {
       "_id": "page.successful_sign_in_without2FA--radios.auto_name__3",
       "_type": "radios",
+      "hint": "By setting up 2‑step verification you can make any information you enter more secure.",
       "items": [
         {
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__12",
@@ -16,16 +17,16 @@
         {
           "_id": "page.successful_sign_in_without2FA--radios.auto_name__3--radio.auto_value__13",
           "_type": "radio",
-          "label": "Not now",
+          "label": "No, continue to my work",
           "value": "no"
         }
       ],
-      "legend": "You haven’t set up 2-Step Verification. Do you want to do this?",
+      "legend": "**Make your work more secure**",
       "name": "setup_2fa"
     }
   ],
   "enableSteps": true,
-  "heading": "You've successfully signed in",
+  "heading": "You’ve signed in",
   "nextPage": [
     {
       "condition": {

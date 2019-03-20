@@ -1,7 +1,7 @@
 {
   "_id": "page.email_confirmation_followup",
   "_type": "page.form",
-  "body": "You can make your form more secure by setting up 2-Step Verification.\r\n\r\nTo do this you'll need to have a mobile phone.\r\n\r\nOnce you've set this up we'll send a code to your mobile. You'll need to enter this code to return to your saved form.",
+  "body": "By setting up 2‑step verification you can make any information you enter more secure.\r\n\r\nTo do this you’ll need to have a mobile phone.\r\n\r\nOnce you’ve set this up we’ll send a code to your mobile. You’ll need to enter this code to return to your saved form.",
   "components": [
     {
       "_id": "page.email_confirmation_followup--radios.auto_name__3",
@@ -24,7 +24,7 @@
       "name": "two_factor_authentication"
     }
   ],
-  "heading": "Make your form more secure",
+  "heading": "Make your work more secure",
   "nextPage": [
     {
       "condition": {

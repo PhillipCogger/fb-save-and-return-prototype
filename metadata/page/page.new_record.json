@@ -2,7 +2,7 @@
   "_id": "page.new_record",
   "_type": "page.form",
   "body": "You can now continue completing your form.",
-  "heading": "You've successfully signed in",
+  "heading": "You’ve successfully signed in",
   "nextPage": [
     "page.unit"
   ],

@@ -19,7 +19,7 @@
           "value": "no"
         }
       ],
-      "legend": "We'll send a text message to {mobile}.",
+      "legend": "We’ll send a text message to {mobile}.",
       "name": "mobile_correct"
     }
   ],

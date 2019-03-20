@@ -11,26 +11,30 @@
           "_type": "checkbox",
           "hint": "Digital",
           "label": "MacBook",
-          "name": "auto_name__13"
+          "name": "auto_name__13",
+          "value": "yes"
         },
         {
           "_id": "page.technology--checkboxes--checkbox.auto_name__14",
           "_type": "checkbox",
           "hint": "Closed Circuit Network",
           "label": "DOM1",
-          "name": "auto_name__14"
+          "name": "auto_name__14",
+          "value": "yes"
         },
         {
           "_id": "page.technology--checkboxes--checkbox.auto_name__15",
           "_type": "checkbox",
           "label": "Quantum / Omni",
-          "name": "auto_name__15"
+          "name": "auto_name__15",
+          "value": "yes"
         },
         {
           "_id": "page.technology--checkboxes--checkbox.auto_name__16",
           "_type": "checkbox",
           "label": "Mobile",
-          "name": "auto_name__16"
+          "name": "auto_name__16",
+          "value": "yes"
         },
         {
           "_id": "page.technology--checkboxes--checkbox.auto_name__17",
@@ -42,7 +46,8 @@
             "name": "auto_name__18"
           },
           "label": "Other",
-          "name": "auto_name__17"
+          "name": "auto_name__17",
+          "value": "yes"
         }
       ],
       "legend": "Technology used"
@@ -57,7 +62,7 @@
   ],
   "extraComponents": [
     {
-      "_id": "page.unit--content",
+      "_id": "page.technology--content",
       "_type": "content",
       "html": "[Save and come back later](/email_address)\r\n\r\nYour session will time out after 30 minutes of inactivity. Save your details if you want to come back later.",
       "show": {

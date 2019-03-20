@@ -19,7 +19,7 @@
           "value": "no"
         }
       ],
-      "legend": "We'll send an email to {email}.",
+      "legend": "We’ll send an email to {email}.",
       "name": "email_correct"
     }
   ],
