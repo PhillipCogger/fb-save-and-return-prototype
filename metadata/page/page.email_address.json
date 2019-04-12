@@ -18,5 +18,5 @@
     "page.Check_your_email",
     "page.email_resent"
   ],
-  "url": "email_address"
+  "url": "/return/setup/email"
 }

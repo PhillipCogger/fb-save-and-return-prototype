@@ -12,5 +12,5 @@
     "negated": true,
     "operator": "defined"
   },
-  "url": "/resend_security_code"
+  "url": "/return/setup/mobile/resend"
 }

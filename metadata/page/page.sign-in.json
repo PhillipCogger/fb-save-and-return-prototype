@@ -17,5 +17,5 @@
     "page.returning_user_check_email",
     "page.returning_user_send_new_email"
   ],
-  "url": "sign-in"
+  "url": "/return"
 }

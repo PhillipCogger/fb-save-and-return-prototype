@@ -43,5 +43,5 @@
       "page": "page.new_record"
     }
   ],
-  "url": "email_confirmation_followup"
+  "url": "/return/setup/email/2fa"
 }

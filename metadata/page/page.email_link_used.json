@@ -3,5 +3,5 @@
   "_type": "page.content",
   "body": "You can only use the link we sent you once.\r\n\r\n[Enter your email again](email_address)",
   "heading": "Link used already",
-  "url": "email_link_used"
+  "url": "/return/setup/email/used"
 }

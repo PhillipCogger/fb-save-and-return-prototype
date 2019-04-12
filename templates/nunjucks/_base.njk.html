@@ -1,8 +1,8 @@
 {% extends "template.njk" %}
 
 {% block head %}
-<link rel="stylesheet" href="/assets/govuk-frontend-2.8.0.min.css">
-{# <link rel="stylesheet" href="/assets/govuk-frontend-ie8-2.8.0.min.css"> #}
+<link rel="stylesheet" href="/assets/govuk-frontend-{{govuk_frontend_version}}.min.css">
+{# <link rel="stylesheet" href="/assets/govuk-frontend-ie8-{{govuk_frontend_version}}.min.css"> #}
 <style>
 #signedin {
   text-decoration: none;
@@ -83,7 +83,7 @@
 {% endif %}
 {% endif %}
 {% endblock %}
-<script src="/assets/govuk-frontend-2.8.0.min.js"></script>
+<script src="/assets/govuk-frontend-{{govuk_frontend_version}}.min.js"></script>
 {# <script src="/assets/govuk-frontend-design-system.min.js"></script> #}
 {% block scripts %}{% endblock %}
 {# <style>

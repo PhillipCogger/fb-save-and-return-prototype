@@ -34,5 +34,5 @@
       "page": "page.email_address"
     }
   ],
-  "url": "/confirm_email_address"
+  "url": "/return/setup/email/confirm"
 }

@@ -18,5 +18,5 @@
     "page.check_your_mobile",
     "page.resend_security_code"
   ],
-  "url": "mobile_number"
+  "url": "/return/setup/mobile"
 }

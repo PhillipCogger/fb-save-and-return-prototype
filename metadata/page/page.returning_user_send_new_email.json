@@ -7,5 +7,5 @@
   "nextPage": [
     "page.returning_user_check_email"
   ],
-  "url": "/returning_user_resend_email"
+  "url": "/return/email/resend"
 }

@@ -34,5 +34,5 @@
       "page": "page.mobile_number"
     }
   ],
-  "url": "/confirm_mobile_number"
+  "url": "/return/setup/mobile/confirm"
 }

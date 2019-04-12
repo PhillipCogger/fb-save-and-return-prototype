@@ -30,5 +30,5 @@
   "steps": [
     "page.returning_user_resend_email"
   ],
-  "url": "/sign-in-returning_user_enter_code"
+  "url": "/return/code"
 }

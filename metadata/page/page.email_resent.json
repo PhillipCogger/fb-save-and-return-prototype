@@ -7,5 +7,5 @@
   "nextPage": [
     "page.Check_your_email"
   ],
-  "url": "/email_resent"
+  "url": "/return/setup/email/resend"
 }

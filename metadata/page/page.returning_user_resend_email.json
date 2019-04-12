@@ -12,5 +12,5 @@
     "negated": true,
     "operator": "defined"
   },
-  "url": "/returning_user_resend_code"
+  "url": "/return/code/resend"
 }

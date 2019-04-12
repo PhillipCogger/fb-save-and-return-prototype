@@ -4,5 +4,5 @@
   "body": "This can take a few minutes to arrive.\r\n\r\nIf you don’t get an email: \r\n * check your spam or junk folders\r\n * check you have entered the correct email\r\n * [resend the email](/returning_user_resend_email)",
   "heading": "Check your email",
   "lede": "We’ve sent a link to {email}.",
-  "url": "/returning_user_check_email"
+  "url": "/return/email/check"
 }
