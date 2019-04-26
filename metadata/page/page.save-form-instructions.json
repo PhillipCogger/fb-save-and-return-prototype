@@ -1,0 +1,7 @@
+{
+  "_id": "page.save-form-instructions",
+  "_type": "page.content",
+  "body": "Hello [name]\r\n\r\nTo save your MOJ leavers form, you must confirm your email address.\r\n\r\nYou must do this within 30 minutes.\r\n\r\nKind regards\r\n\r\nMOJ team",
+  "heading": "Save your MOJ Leavers form",
+  "url": "save-form-instructions"
+}

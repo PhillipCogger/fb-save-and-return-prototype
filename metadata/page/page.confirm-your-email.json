@@ -1,0 +1,28 @@
+{
+  "_id": "page.confirm-your-email",
+  "_type": "page.form",
+  "body": "We'll send an email to robinson.crusoe@gmail.com",
+  "components": [
+    {
+      "_id": "page.confirm-your-email--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.confirm-your-email--radios.auto_name__4--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Yes, this is my email address",
+          "value": "auto_value__12"
+        },
+        {
+          "_id": "page.confirm-your-email--radios.auto_name__4--radio.auto_value__13",
+          "_type": "radio",
+          "label": "No, I want to change my email address",
+          "value": "auto_value__13"
+        }
+      ],
+      "name": "auto_name__4"
+    }
+  ],
+  "heading": "Confirm your email",
+  "url": "confirm-your-email"
+}

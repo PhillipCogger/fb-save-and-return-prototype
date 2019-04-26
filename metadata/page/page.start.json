@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "We’ll ask you:\r\n\r\n- your leaving date\r\n- your business unit\r\n- your manager’s details\r\n- where you work\r\n- what technology you use\r\n\r\nYou can save your application and return to it later if you need to.",
+  "body": "We’ll ask you:\r\n\r\n- your leaving date\r\n- your business unit\r\n- your manager’s details\r\n- where you work\r\n- what technology you use\r\n\r\nYou can save your form and return to it later if you need to.",
   "extraComponents": [
     {
       "$component": true,
@@ -21,7 +21,11 @@
   "steps": [
     "page.leaver_details",
     "page.unit",
-    "page.return-to-your-application-later"
+    "page.return-to-your-application-later",
+    "page.confirm-your-email",
+    "page.check-your-email",
+    "page.save-form-instructions",
+    "page.form-saved"
   ],
   "url": "/"
 }
