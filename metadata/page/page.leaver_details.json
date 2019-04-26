@@ -66,7 +66,7 @@
     {
       "_id": "page.leaver_details--content",
       "_type": "content",
-      "html": "[Save and come back later](/return/setup)"
+      "html": "[Save and come back later](/return-to-your-application-later)"
     }
   ],
   "heading": "Leaver details",
