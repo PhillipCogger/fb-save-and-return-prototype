@@ -65,8 +65,8 @@
   "extraComponents": [
     {
       "_id": "page.leaver_details--content",
-      "_isa": "content.call_to_save_return",
-      "_type": "content"
+      "_type": "content",
+      "html": "[Save and come back later](/return/setup)"
     }
   ],
   "heading": "Leaver details",
