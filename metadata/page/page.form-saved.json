@@ -10,13 +10,13 @@
         {
           "_id": "page.form-saved--radios.auto_name__7--radio.auto_value__14",
           "_type": "radio",
-          "label": "Continue with the form",
+          "label": "Continue with your form",
           "value": "auto_value__14"
         },
         {
           "_id": "page.form-saved--radios.auto_name__7--radio.auto_value__15",
           "_type": "radio",
-          "label": "Return to the form later",
+          "label": "Return to it later",
           "value": "auto_value__15"
         }
       ],

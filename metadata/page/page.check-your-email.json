@@ -1,7 +1,7 @@
 {
   "_id": "page.check-your-email",
   "_type": "page.content",
-  "body": "We've sent you an email with instructions to save your form.\r\n\r\nThis can take a few minutes to arrive.\r\n\r\nIf you don't get an email, you should:\r\n\r\n* check your junk or spam mail\r\n* check you have entered the correct email\r\n* [resend the email](/returning_user_resend_email)\r\n\r\nFor your security, we won't be able to save your information if you don't follow the instructions in the email within 30 minutes.",
-  "heading": "Check your email",
+  "body": "We've sent you an email with instructions to save your form. This can take a few minutes to arrive.\r\n\r\nTo save your form, you need to follow the instructions within 30 minutes of receiving the email.\r\n\r\n### If you don't get an email\r\n\r\n* Check your junk or spam mail\r\n* Make sure you have entered the correct email\r\n* [Resend the email](/returning_user_resend_email)",
+  "heading": "Check your inbox",
   "url": "check-your-email"
 }
