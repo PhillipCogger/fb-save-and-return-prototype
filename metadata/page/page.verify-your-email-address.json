@@ -1,13 +1,15 @@
 {
   "_id": "page.verify-your-email-address",
-  "_type": "page.singlequestion",
+  "_type": "page.form",
   "components": [
     {
       "_id": "page.verify-your-email-address--email.auto_name__9",
       "_type": "email",
-      "label": "Verify your email address",
+      "hint": "Make sure no one else can access this email address",
+      "label": "Email",
       "name": "auto_name__9"
     }
   ],
+  "heading": "Verify your email address",
   "url": "verify-your-email-address"
 }
