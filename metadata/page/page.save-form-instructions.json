@@ -1,7 +1,7 @@
 {
   "_id": "page.save-form-instructions",
   "_type": "page.content",
-  "body": "Hello [name]\r\n\r\nTo save your form you must verify your email address within 24 hours of receiving this message.\r\n\r\nKind regards\r\n\r\nMOJ team",
+  "body": "Hello [name]\r\n\r\nTo save your form you must [verify your email address](/verify-your-email-address) within 24 hours of receiving this message.\r\n\r\nKind regards\r\n\r\nMOJ team",
   "heading": "Save your MOJ Leavers form",
   "url": "save-form-instructions"
 }
