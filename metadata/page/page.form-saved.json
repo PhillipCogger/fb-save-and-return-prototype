@@ -1,28 +1,7 @@
 {
   "_id": "page.form-saved",
   "_type": "page.form",
-  "body": "You can continue with your saved form or return to it later.",
-  "components": [
-    {
-      "_id": "page.form-saved--radios.auto_name__7",
-      "_type": "radios",
-      "items": [
-        {
-          "_id": "page.form-saved--radios.auto_name__7--radio.auto_value__14",
-          "_type": "radio",
-          "label": "Continue with your form",
-          "value": "auto_value__14"
-        },
-        {
-          "_id": "page.form-saved--radios.auto_name__7--radio.auto_value__15",
-          "_type": "radio",
-          "label": "Return to it later",
-          "value": "auto_value__15"
-        }
-      ],
-      "name": "auto_name__7"
-    }
-  ],
+  "body": "You can continue with your saved form or come back to it later.",
   "heading": "You've successfully saved your form",
   "url": "form-saved"
 }
